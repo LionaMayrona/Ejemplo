@@ -10,7 +10,8 @@ public class ManejoSubCadenas {
         System.out.println("subcadena1 = " + subcadena1);
 
         // Subcadena de Mundo
-        var subcadena2 = cadena1.substring(5);
+        //var subcadena2 = cadena1.substring(5);
+        var subcadena2 = cadena1.substring(5, 10);
         System.out.println("subcadena2 = " + subcadena2);
 
 
